@@ -1,0 +1,194 @@
+head:
+  title: "Arlinson Barrios | Pasión por el Desarrollo Tecnológico"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Arlinson Barrios."
+  subtitle: "Estudiante de ingenieria de sistemas"
+  description: "Aquí comparto proyectos, aprendizajes y experiencias en el desarrollo de estructuras de datos, algoritmos y tecnologías. Este sitio es una ventana a mi crecimiento profesional y personal, mostrando mi enfoque en resolver problemas del mundo real a través de la tecnología."
+  image:
+    x: "img/showcase/foto.png"
+    _2x: "img/showcase/foto.png"
+  imageMobile:
+    x: "img/showcase/foto.png"
+    _2x: "img/showcase/foto.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contactame"
+    URL: "Https://mail.google.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com"
+
+    - icon: "github"
+      URL: "https://github.com"
+
+    - icon: "twitter"
+      URL: "https://twitter.com"
+
+    - icon: "dribbble"
+      URL: "https://dribbble.com"
+
+    - icon: "behance"
+      URL: "https://www.behance.net"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com"
+
+    - icon: "codepen"
+      URL: "#"
+
+    - icon: "yelp"
+      URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "¿Quién soy?"
+  content: 
+    <p class="lead">
+    <strong>Soy un estudiante apasionado de ingeniería de sistemas. Me encanta aprender sobre tecnología y cómo aplicarla para resolver problemas del mundo real. Mi enfoque está en el desarrollo de software y la creación de soluciones innovadoras. 
+    </p>
+    <p class="lead">
+    <strong>En mi tiempo libre disfruto pasar tiempo con mi familia y amigos, aprender algo nuevo cada día y enfrentar retos que me ayuden a crecer como profesional.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Sobre mi"
+    URL: "https://www.linkedin.com"
+  image:
+    x: "img/who-am-i/yo.jpeg"
+    _2x: "img/who-am-i/yo.jpeg"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "He trabajado en diversos proyectos que incluyen el diseño e implementación de algoritmos, interfaces gráficas y estructuras de datos. Estoy en constante búsqueda de nuevos proyectos que me permitan aprender, crecer y poner en práctica mis habilidades.
+  "
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Descargar mi resumen"
+    URL: "#"
+
+  items:
+    - title: "Experiencia programando en C++"
+      company: "Universidad del Magdalena"
+      duration: "2023"
+
+    - title: "Experiencia programando en Java"
+      company: "Universidad del Magdalena"
+      duration: "2024"
+
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "Universidad del Magdalena"
+      year: "2023"
+      degree: "Ingenieria de sistemas"
+
+    - university: "SENA"
+      year: "2020-2022"
+      degree: "Operaciones contables y financieras"
+      
+   
+# Client & Work
+client_and_work:
+  title: "Portafolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Plataforma de servicios deportivos"
+      description: "Diseño y desarrollo de una aplicación para reservar espacios deportivos, gestionar usuarios y servicios mediante herencia y estructuras avanzadas."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Cargar proyecto"
+        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+      image:
+        x: "img/works/imagen.jpeg"
+        _2x: "img/works/imagen.jpeg"
+      is_even: true
+
+  
+# testimonial
+
+# contact
+contact:
+  enable: true
+  title: "Contacto"
+    
+  image:
+    x: "img/who-am-i/yo.jpeg"
+    _2x: "img/who-am-i/yo.jpeg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar mensaje"
+    btnAction: 'mailto:your-email@gmail.com'
+    
+  phone:
+    title: "Numero de teléfono"
+    number: "3015546789"
+  email:
+    title: "Correo"
+    email: '<a href="mailto:your-email@gmail.com">arlinson10@gmail.com</a>'
+  address:
+    title: "Ciudad"
+    address: "Cienaga, Magdalena"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
